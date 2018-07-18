@@ -43,10 +43,10 @@ class uchiwa::params {
       timeout  =>  5,
     }
   ]
-  $host            =     '0.0.0.0'
+  $host            =     '127.0.0.1'
   $port            =     3000
   $user            =     ''
-  $pass            =     ''
+  $pass            =     hiera('default_pass')
   $refresh         =     '5'
   $users           =     []
   $auth            =     {}

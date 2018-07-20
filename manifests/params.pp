@@ -46,7 +46,7 @@ class uchiwa::params {
   $host            =     '127.0.0.1'
   $port            =     3000
   $user            =     ''
-  $pass            =     hiera('default_pass')
+  $pass            =     'needs_to_be_changed'
   $refresh         =     '5'
   $users           =     []
   $auth            =     {}
